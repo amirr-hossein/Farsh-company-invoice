@@ -183,6 +183,7 @@ main div:nth-child(4) div:nth-child(1) {
   overflow: hidden;
   width: 39%;
 }
+
 @media only screen and (max-width: 668px) {
   .Place-signature-seal {
     width: 100%;
@@ -253,7 +254,22 @@ main div:nth-child(4) div:nth-child(1) {
     width: 21%;
   }
 }
+@media print {
+  .dots-name {
+    width: 47%;
+  }
 
+  .dots-number {
+    width: 29%;
+  }
+  .dots-number-shares {
+    width: 48%;
+  }
+
+  .dots-number-Record {
+    width: 26%;
+  }
+}
 @media only screen and (max-width: 1618px) and (min-width: 1458px) {
   .dots-name {
     width: 50%;
